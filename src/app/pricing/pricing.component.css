@@ -1,0 +1,847 @@
+@font-face {
+    font-family: Chillax Variable;
+    src: url(/fonts/Chillax-Variable.ttf) format("opentype");
+}
+
+
+@media only screen and (min-width:992px) {
+.h1 {
+    color: #133D49;
+
+    font-family: "Chillax Variable";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.dtview { 
+     display: none;
+}
+
+.pr1 {
+    display: flex;
+    width: 418px;
+    height: 74px;
+    padding: 0px 49px 0px 264px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.pr2 {
+    border-radius: 12px;
+    background: #F4F4F4;
+}
+
+
+.button1 {
+    background-color: #FFD933;
+    background: linear-gradient(179deg, #F1C300 -27.19%, #FFD008 22.69%, #FFD008 69.55%, #FFEFAD 123.96%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #FFD000;
+    border-radius: 8px 0px 0px 8px;
+    border: 2px solid #FFD933;
+    width: 193px;
+    height: 52px;
+    color: #133D49;
+
+
+    font-family: "Josefin Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.button2 {
+
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #F4F4F4;
+    border-radius: 0px 8px 8px 0px;
+    border: 2px solid #F4F4F4;
+    width: 193px;
+    height: 52px;
+    position: relative;
+    z-index: -1;
+    font-family: "Josefin Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 62px;
+}
+
+
+
+
+.button11 {
+    background-color: #FFD933;
+    background: linear-gradient(179deg, #F1C300 -27.19%, #FFD008 22.69%, #FFD008 69.55%, #FFEFAD 123.96%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #FFD000;
+    border-radius: 8px;
+    border: 2px solid #FFD933;
+    width: 193px;
+    height: 52px;
+    color: #133D49;
+    margin-top: 32px;
+
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.sbox1 {
+    border-radius: 16px;
+    border: 3px solid #FFDA93;
+    background: #FFF;
+    box-shadow: 0px 45px 90px 0px rgba(251, 166, 88, 0.17);
+    width: 100%;
+    height: 556px;
+    flex-shrink: 0;
+    margin-top: 29px;
+}
+
+.sbox11 {
+    background: rgba(255, 239, 208, 0.40);
+    filter: blur(52px);
+    width: 100%;
+    height: 228px;
+    flex-shrink: 0;
+}
+
+
+.prt1 {
+    color: #133D49;
+
+    font-family: Jost;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    margin-top: -178px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+
+}
+
+.prt2 {
+    color: #133D49;
+    font-family: Jost;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+    margin-top: -5px;
+    position: relative;
+    z-index: 3;
+}
+
+
+ul {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.pl1 {
+    color: #4B4B4B;
+
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 63px;
+    margin-left: -15px;
+    position: relative;
+    z-index: 3;
+}
+
+
+.pl2 {
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-left: -15px;
+    position: relative;
+    z-index: 3;
+    margin-top: 20px;
+
+}
+
+
+
+
+.button111 {
+    border-radius: 8px;
+    border: 2px solid #FFD933;
+    background: linear-gradient(179deg, #F1C300 -27.19%, #FFD008 22.69%, #FFD008 69.55%, #FFEFAD 123.96%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #FFD000;
+    display: inline-flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #133D49;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 31px;
+}
+
+.sbox111 {
+    width: 100%;
+    height: 603px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 3px solid #FFD8AF;
+    background: #FFF;
+    box-shadow: 0px 45px 90px 0px rgba(251, 166, 88, 0.17);
+}
+
+.sbox1111 {
+    width: 372px;
+    height: 228px;
+    flex-shrink: 0;
+    background: #FFF2D9;
+
+    filter: blur(52px);
+
+}
+
+
+
+
+.pl11 {
+    color: #4B4B4B;
+
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 50px;
+    margin-left: -15px;
+    position: relative;
+    z-index: 3;
+}
+
+
+.pl22 {
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: -15px;
+    position: relative;
+    z-index: 3;
+    margin-top: 25px;
+
+}
+
+
+.obx1{
+    display: inline-flex;
+padding: 17px 35px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 15px 0px 30px 0px;
+border: 3px solid #FFC68C;
+background: var(--orange, linear-gradient(99deg, #F5752D 0.71%, #FE9F2A 104.91%));
+color: #FFF;
+font-family: "Josefin Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+position: relative;
+z-index: 3;
+}
+
+
+
+
+.prt11 {
+    color: #133D49;
+
+    font-family: Jost;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    margin-top: -200px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+
+}
+
+}
+
+@media only screen and (min-width:600px) and (max-width:992px) {
+    .h1 {
+        color: #133D49;
+    
+        font-family: "Chillax Variable";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    
+    .pr1 {
+        display: flex;
+        width: 418px;
+        height: 74px;
+        padding: 0px 49px 0px 264px;
+        justify-content: flex-end;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    .pr2 {
+        border-radius: 12px;
+        background: #F4F4F4;
+    }
+    
+    
+    .button1 {
+        background-color: #FFD933;
+        background: linear-gradient(179deg, #F1C300 -27.19%, #FFD008 22.69%, #FFD008 69.55%, #FFEFAD 123.96%);
+        box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #FFD000;
+        border-radius: 8px 0px 0px 8px;
+        border: 2px solid #FFD933;
+        width: 193px;
+        height: 52px;
+        color: #133D49;
+    
+    
+        font-family: "Josefin Sans";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+    }
+    
+    .button2 {
+    
+    
+        box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #F4F4F4;
+        border-radius: 0px 8px 8px 0px;
+        border: 2px solid #F4F4F4;
+        width: 193px;
+        height: 52px;
+        position: relative;
+        z-index: -1;
+        font-family: "Josefin Sans";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 62px;
+    }
+    
+    .dtview {  
+        display: none;
+    }
+    
+    
+    .button11 {
+        background-color: #FFD933;
+        background: linear-gradient(179deg, #F1C300 -27.19%, #FFD008 22.69%, #FFD008 69.55%, #FFEFAD 123.96%);
+        box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #FFD000;
+        border-radius: 8px;
+        border: 2px solid #FFD933;
+        height: 52px;
+        color: #133D49;
+        margin-top: 32px;
+    
+        font-family: "Josefin Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+    }
+    
+    .sbox1 {
+        border-radius: 16px;
+        border: 3px solid #FFDA93;
+        background: #FFF;
+        box-shadow: 0px 45px 90px 0px rgba(251, 166, 88, 0.17);
+        width: 100%;
+        height: 556px;
+        flex-shrink: 0;
+        margin-top: 29px;
+    }
+    
+    .sbox11 {
+        background: rgba(255, 239, 208, 0.40);
+    
+        filter: blur(52px);
+        width: 100%;
+        height: 228px;
+        flex-shrink: 0;
+    }
+    
+    
+    .prt1 {
+        color: #133D49;
+    
+        font-family: Jost;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px;
+        margin-top: -178px;
+        text-align: center;
+        position: relative;
+        z-index: 3;
+    
+    }
+    
+    .prt2 {
+        color: #133D49;
+        font-family: Jost;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px;
+        text-align: center;
+        margin-top: -5px;
+        position: relative;
+        z-index: 3;
+    }
+    
+    
+    ul {
+        list-style: none;
+        margin-top: 5px;
+    }
+    
+    .pl1 {
+        color: #4B4B4B;
+    
+        font-family: Jost;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        margin-top: 63px;
+        margin-left: -15px;
+        position: relative;
+        z-index: 3;
+    }
+    
+    
+    .pl2 {
+        font-family: Jost;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        margin-left: -15px;
+        position: relative;
+        z-index: 3;
+        margin-top: 20px;
+    
+    }
+    
+    
+    
+    
+    .button111 {
+        border-radius: 8px;
+        border: 2px solid #FFD933;
+        background: linear-gradient(179deg, #F1C300 -27.19%, #FFD008 22.69%, #FFD008 69.55%, #FFEFAD 123.96%);
+        box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #FFD000;
+        display: inline-flex;
+        padding: 7px 7px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #133D49;
+        font-family: "Josefin Sans";
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        margin-top: 75px;
+    }
+    
+    .sbox111 {
+        width: 100%;
+        height: auto;
+        padding-bottom: 43px;        flex-shrink: 0;
+        border-radius: 16px;
+        border: 3px solid #FFD8AF;
+        background: #FFF;
+        box-shadow: 0px 45px 90px 0px rgba(251, 166, 88, 0.17);
+    }
+    
+    .sbox1111 {
+        width: 100%;
+        height: 228px;
+        flex-shrink: 0;
+        background: #FFF2D9;
+    
+        filter: blur(52px);
+    
+    }
+    
+    
+    
+    
+    .pl11 {
+        color: #4B4B4B;
+        font-family: Jost;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+        margin-top: 39px;
+        margin-left: -15px;
+        position: relative;
+        z-index: 3
+    }
+    
+    
+    .pl22 {
+        font-family: Jost;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin-left: -15px;
+        position: relative;
+        z-index: 3;
+        margin-top: 25px;
+    
+    }
+    
+    
+    .obx1{
+        display: inline-flex;
+        padding: 7px 11px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 15px 0px 30px 0px;
+        border: 3px solid #FFC68C;
+        background: var(--orange, linear-gradient(99deg, #F5752D 0.71%, #FE9F2A 104.91%));
+        color: #FFF;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        position: relative;
+        z-index: 3;
+    }
+    
+    
+    
+    
+    .prt11 {
+        color: #133D49;
+        font-family: Jost;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px;
+        margin-top: -200px;
+        text-align: center;
+        position: relative;
+        z-index: 3;
+    
+    }
+    
+    }
+
+
+    @media only screen and (max-width:600px)  {
+        .h1 {
+            color: #133D49;
+            font-family: "Chillax Variable";
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: center;
+        }
+        
+        .dtview1 { 
+            display: none;
+        }
+        .pr1 {
+            display: flex;
+            width: 418px;
+            height: 74px;
+            padding: 0px 49px 0px 264px;
+            justify-content: flex-end;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        
+        .pr2 {
+            border-radius: 12px;
+            background: #F4F4F4;
+        }
+        
+        
+        .button1 {
+            background: linear-gradient(179deg, #F1C300 -27.19%, #FFD008 22.69%, #FFD008 69.55%, #FFEFAD 123.96%);
+            box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #FFD000;
+            border-radius: 8px 0px 0px 8px;
+            border: 2px solid #FFD933;
+            width: 145px;
+            height: 52px;
+            color: #133D49;
+            font-family: "Josefin Sans";
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+        }
+        
+        .button2 {
+            box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #F4F4F4;
+            border-radius: 0px 8px 8px 0px;
+            border: 2px solid #F4F4F4;
+            width: 145px;
+            height: 51px;
+            position: relative;
+            z-index: -1;
+            font-family: "Josefin Sans";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+            margin-bottom: 62px;
+        }
+        
+        
+        .button11 {
+            background-color: #FFD933;
+            background: linear-gradient(179deg, #F1C300 -27.19%, #FFD008 22.69%, #FFD008 69.55%, #FFEFAD 123.96%);
+            box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #FFD000;
+            border-radius: 8px;
+            border: 2px solid #FFD933;
+            height: 52px;
+            color: #133D49;
+            margin-top: 32px;
+        
+            font-family: "Josefin Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 32px;
+        }
+        
+        .sbox1 {
+            border-radius: 16px;
+            border: 3px solid #FFDA93;
+            background: #FFF;
+            box-shadow: 0px 45px 90px 0px rgba(251, 166, 88, 0.17);
+            width: 79%;
+            height: 556px;
+            flex-shrink: 0;
+            margin-top: 29px;
+        
+        }
+        
+        .sbox11 {
+            background: rgba(255, 239, 208, 0.40);
+        
+            filter: blur(52px);
+            width: 100%;
+            height: 228px;
+            flex-shrink: 0;
+        }
+        
+        
+        .prt1 {
+            color: #133D49;
+        
+            font-family: Jost;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 38px;
+            margin-top: -178px;
+            text-align: center;
+            position: relative;
+            z-index: 3;
+        
+        }
+        
+        .prt2 {
+            color: #133D49;
+            font-family: Jost;
+            font-size: 31px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 38px;
+            text-align: center;
+            margin-top: -5px;
+            position: relative;
+            z-index: 3;
+        }
+        
+        
+        ul {
+            list-style: none;
+            margin-top: 5px;
+        }
+        
+        .pl1 {
+            color: #4B4B4B;
+        
+            font-family: Jost;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+            margin-top: 63px;
+            margin-left: -15px;
+            position: relative;
+            z-index: 3;
+        }
+        
+        
+        .pl2 {
+            font-family: Jost;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+            margin-left: -15px;
+            position: relative;
+            z-index: 3;
+            margin-top: 20px;
+        
+        }
+        
+        
+        
+        
+        .button111 {
+            border-radius: 8px;
+            border: 2px solid #FFD933;
+            background: linear-gradient(179deg, #F1C300 -27.19%, #FFD008 22.69%, #FFD008 69.55%, #FFEFAD 123.96%);
+            box-shadow: 0px 4px 4px 0px rgba(0, 10, 31, 0.20), 0px 0px 0px 2px #FFD000;
+            display: inline-flex;
+            padding: 7px 7px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color: #133D49;
+            font-family: "Josefin Sans";
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 32px;
+            margin-top: 75px;
+        }
+        
+        .sbox111 {
+            width: 77%;
+            height: auto;
+            padding-bottom: 43px;        flex-shrink: 0;
+            border-radius: 16px;
+            border: 3px solid #FFD8AF;
+            background: #FFF;
+            box-shadow: 0px 45px 90px 0px rgba(251, 166, 88, 0.17);
+        }
+        
+        .sbox1111 {
+            width: 100%;
+            height: 228px;
+            flex-shrink: 0;
+            background: #FFF2D9;
+        
+            filter: blur(52px);
+        
+        }
+        
+        
+        
+        
+        .pl11 {
+            color: #4B4B4B;
+            font-family: Jost;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 10px;
+            margin-top: 39px;
+            margin-left: -15px;
+            position: relative;
+            z-index: 3
+        }
+        
+        
+        .pl22 {
+            font-family: Jost;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            margin-left: -15px;
+            position: relative;
+            z-index: 3;
+            margin-top: 25px;
+        
+        }
+        
+        
+        .obx1{
+            display: inline-flex;
+            padding: 7px 11px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 15px 0px 30px 0px;
+            border: 3px solid #FFC68C;
+            background: var(--orange, linear-gradient(99deg, #F5752D 0.71%, #FE9F2A 104.91%));
+            color: #FFF;
+            font-family: "Josefin Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+            position: relative;
+            z-index: 3;
+        }
+        
+        
+        
+        
+        .prt11 {
+            color: #133D49;
+            font-family: Jost;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 38px;
+            margin-top: -200px;
+            text-align: center;
+            position: relative;
+            z-index: 3;
+        
+        }
+        
+        }
